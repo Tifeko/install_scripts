@@ -17,7 +17,7 @@ case $ID in
         ;;
     arch|manjaro)
         sudo pacman -Sy
-        sudo pacman -S eza
+        sudo pacman -S eza --noconfirm
         ;;
     opensuse)
         zypper ar https://download.opensuse.org/tumbleweed/repo/oss/ factory-oss
