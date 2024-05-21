@@ -20,7 +20,7 @@ case $ID in
     sudo apt-get install -y wget
     wget https://github.com/helix-editor/helix/releases/download/24.03/helix-24.03-x86_64-linux.tar.xz
     tar xf helix-24.03-x86_64-linux.tar.xz
-    sudo mv helix-24.03-x86_64-linux/hx /usr/local/bin
+    sudo mv helix-24.03-x86_64-linux/hx /usr/bin
     ;;
   *)
     echo "Unsupported OS"
